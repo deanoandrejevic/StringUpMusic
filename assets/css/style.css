@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Permanent+Marker&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Navbar and logo */
+
+nav {
+    position: absolute;
+    width: 100vw;
+    height: 200px;
+}
+
+#logo{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 50px;
+}
+
+#logo img {
+    width: 200px;
+    height: 200px;
+}
+
+#menu {
+    float:right;
+    margin: 75px 50px 75px 0;
+}
+
+#menu li {
+    padding-right: 20px;
+    list-style-type: none;
+    display: inline;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: #fdfdfd;
+    font-size: xx-large;
+}
+
+
+/* Header */
+
+.hero-container {
+    height: 95vh;
+    position: relative;
+}
+
+.hero-heading {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 50px;
+    color: #fdfdfd;
+}
+
+.hero-heading h1 {
+    font-family: 'Permanent Marker', cursive;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+#hero-image {
+    height: 95vh;
+    background: url(/assets/images/joseph-pearson-FrmpLKLNgNw-unsplash.jpg) center center / cover no-repeat;
+    
+}
