@@ -117,9 +117,40 @@
         <hr>
 
         <div id="form-container">
-            <div class="row">
 
-            </div>
+            <form id="form-box">
+                <div>
+                    <h1>Want to talk to us?</h1>
+                    <p>Fill out our contact form and we will get back to you ASAP</p>
+
+
+                    <div>
+                        <label for="fname-field">First Name</label>
+                        <input type="text" id="fname-field" name="first-name" placeholder="e.g Joe" required>
+                    </div>
+                    <div>
+                        <label for="lname-field">Last Name</label>
+                        <input type="text" id="lname-field" name="last-name" placeholder="e.g. Bloggs" required>
+                    </div>
+                    <div>
+                        <label for="age">Age</label>
+                        <select id="age" name="age" required>
+                            <option value="under-20">Under 20</option>
+                            <option value="20s">20-29</option>
+                            <option value="30s">30-39</option>
+                            <option value="40s">40-49</option>
+                            <option value="50s">50-59</option>
+                            <option value="60+">60+</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email-address" placeholder="e.g. joe.bloggs@email.com"
+                            required>
+                    </div>
+
+                </div>
+            </form>
         </div>
 
     </section>
