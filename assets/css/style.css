@@ -9,12 +9,20 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+h1 {
+    font-family: 'Permanent Marker', sans-serif;
+}
+
 /* Navbar and logo */
 
 nav {
     position: absolute;
     width: 100vw;
     height: 200px;
+}
+
+.active-tab {
+    border-bottom: 1px solid;
 }
 
 #logo{
@@ -35,7 +43,7 @@ nav {
 }
 
 #menu li {
-    padding-right: 20px;
+    padding-right: 30px;
     list-style-type: none;
     display: inline;
 }
@@ -43,7 +51,7 @@ nav {
 #menu li a {
     text-decoration: none;
     color: #fdfdfd;
-    font-size: xx-large;
+    font-size: x-large;
 }
 
 
@@ -55,8 +63,8 @@ nav {
 }
 
 .hero-heading {
+    top: 50%;
     position: absolute;
-    margin-top: 400px;
     margin-left: 50px;
     color: #fdfdfd;
 }
@@ -67,11 +75,31 @@ nav {
     font-size: 60px;
 }
 
+#hero-cover {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 #hero-image {
     height: 95vh;
     background: url(/assets/images/joseph-pearson-FrmpLKLNgNw-unsplash.jpg) center center / cover no-repeat;
-    
-}
+    }
+
+#hero-image-events {
+    height: 95vh;
+    background: url(/assets/images/anthony-delanoix-hzgs56Ze49s-unsplash.jpg) center center / cover no-repeat;
+    }
+
+#hero-image-services {
+    height: 95vh;
+    background: url(/assets/images/duncan-shaffer-0JTDHPIjkHc-unsplash.jpg) center center / cover no-repeat;
+    }
+
+#hero-image-contact {
+    height: 95vh;
+    background: url(/assets/images/pien-muller-Fh-Q-xfdh_o-unsplash.jpg) center center / cover no-repeat;
+    }
 
 #scroll-down {
     bottom: 0;
@@ -84,6 +112,7 @@ nav {
 #scroll-down p {
     font-size: large;
     margin-bottom: 0;
+    padding-top:10px;
     
 }
 
@@ -92,3 +121,25 @@ nav {
     font-size: 60px;
    
 }
+
+
+/* What We Offer Section */
+
+
+/* Footer */
+
+.footer-container {
+    margin: 20px 50px 0 50px;
+}
+
+#social-tags {
+    font-size: xx-large;
+}
+
+#social-tags a {
+    padding-right: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+
