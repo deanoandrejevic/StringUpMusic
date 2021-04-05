@@ -15,6 +15,10 @@ h1 {
     font-family: 'Permanent Marker', sans-serif;
 }
 
+h3 {
+    font-family: 'Permanent Marker', sans-serif;
+}
+
 
 /* Navbar and logo */
 
@@ -32,7 +36,7 @@ nav {
     width: 200px;
     height: 200px;
     float: left;
-    margin-left: 50px;
+    margin-left: 75px;
 }
 
 #logo img {
@@ -42,7 +46,7 @@ nav {
 
 #menu {
     float:right;
-    margin: 75px 50px 75px 0;
+    margin: 75px 75px 75px 0;
 }
 
 #menu li {
@@ -68,7 +72,7 @@ nav {
 .hero-heading {
     top: 50%;
     position: absolute;
-    margin-left: 50px;
+    margin-left: 75px;
     color: #fdfdfd;
 }
 
@@ -137,10 +141,68 @@ nav {
     text-align: center;
 }
 
+#what-we-offer {
+    height: 400px;
+    margin: 50px 50px 50px 50px;
+}
+
+.right-container {
+    float: right;
+    width: 33%;
+}
+
+.right-heading {
+    float: right;
+    margin-bottom: 50px;
+}
+
+.right-heading {
+    text-align: right;
+}
+
+.left-container {
+    float: left;
+    width: 33%;
+}
+
+.left-heading {
+    float: left;
+    margin-bottom: 50px;
+}
+
+.left-heading h3 {
+    text-align: left;
+}
+
+#center-container {
+    width: 33%;
+    height: 100%;
+    margin: auto auto;
+}
+
+#circle-container {
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    background-color: #fdfdfd;
+    margin:  0 auto;
+}
+
+#circle-image{
+    background: url(/assets/images/wan-san-yip-5EPLCEpP5tA-unsplash\ \(2\).jpg) no-repeat center center;
+    border-radius: 50%;
+    height: 100%;
+    
+}
+
 /* Job Oppotunities Section */
 
 .job-container {
-    margin: 20px 50px 0 50px;
+    margin: 20px 75px 0 75px;
 }
 
 .job-container h3 {
@@ -173,10 +235,11 @@ nav {
     text-align: center;
 }
 
+
 /* Footer */
 
 .footer-container {
-    margin: 20px 50px 0 50px;
+    margin: 20px 75px 0 75px;
 }
 
 
@@ -191,4 +254,22 @@ nav {
     color: black;
 }
 
+/* Media Quieries */
 
+@media screen and (max-width: 1440px) {
+    #what-we-offer {
+        height: 1000px;
+        width: 80%;
+        margin: 50px auto;
+    }
+
+    .right-container .left-container {
+        width: 100%;
+        float: right;
+    }
+
+    #center-container {
+        width: 100%;
+        clear: both;
+    }
+}
