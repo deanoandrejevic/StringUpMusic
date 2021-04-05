@@ -11,14 +11,9 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
+h1, h2, h3, h4 {
     font-family: 'Permanent Marker', sans-serif;
 }
-
-h3 {
-    font-family: 'Permanent Marker', sans-serif;
-}
-
 
 /* Navbar and logo */
 
@@ -154,9 +149,6 @@ nav {
 .right-heading {
     float: right;
     margin-bottom: 50px;
-}
-
-.right-heading {
     text-align: right;
 }
 
@@ -205,10 +197,6 @@ nav {
     margin: 20px 75px 0 75px;
 }
 
-.job-container h3 {
-    font-family: 'Permanent Marker', sans-serif;
-}
-
 /* Form Sections */
 
 #form-container {
@@ -238,11 +226,16 @@ nav {
 
 /* Footer */
 
-.footer-container {
-    margin: 20px 75px 0 75px;
+footer {
+    background-color: #1f2b2b;
+    color: #fdfdfd;
+    height: 100%;
 }
 
-
+.footer-container {
+    margin: 20px 75px 0 75px;
+    font-size: smaller;
+}
 
 #social-tags {
     font-size: xx-large;
@@ -251,14 +244,14 @@ nav {
 #social-tags a {
     padding-right: 15px;
     text-decoration: none;
-    color: black;
+    color: #fdfdfd;
 }
 
 /* Media Quieries */
 
 @media screen and (max-width: 1440px) {
     #what-we-offer {
-        height: 1000px;
+        height: 1050px;
         width: 80%;
         margin: 50px auto;
     }
@@ -269,7 +262,31 @@ nav {
     }
 
     #center-container {
+        height:400px;
         width: 100%;
         clear: both;
     }
+}
+
+@media screen and (max-width: 1080px){
+    #what-we-offer {
+        height: 1200px;
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .right-container {
+        text-align: left;
+        width: 100%;
+        clear: both;
+        float: right;
+    }
+
+    .left-container {
+        text-align: left;
+        width: 100%;
+        clear: both;
+        float: right;
+    }
+
 }
