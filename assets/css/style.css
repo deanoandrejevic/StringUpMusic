@@ -191,6 +191,38 @@ nav {
     
 }
 
+/* Events Page */
+
+#events-heading {
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* #events-container {
+    height: 2000px;
+} */
+
+.events-row {
+    display: flex;
+    padding: 20px;
+}
+
+.events-card {
+    width: 33%;
+    border: 1px solid black;
+    margin: 15px;
+}
+
+.events-card-picture {
+    height: 55%;
+    width: 100%;
+}
+
+.events-card-text {
+    padding: 10px;
+    text-align: center;
+}
+
 /* Job Oppotunities Section */
 
 .job-container {
