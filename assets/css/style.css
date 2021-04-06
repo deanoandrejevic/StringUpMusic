@@ -85,22 +85,22 @@ nav {
 
 #hero-image {
     height: 95vh;
-    background: url(/assets/images/joseph-pearson-FrmpLKLNgNw-unsplash.jpg) center center / cover no-repeat;
+    background: url(/assets/images/home-hero-image.jpg) center center / cover no-repeat;
     }
 
 #hero-image-events {
     height: 95vh;
-    background: url(/assets/images/anthony-delanoix-hzgs56Ze49s-unsplash.jpg) center center / cover no-repeat;
+    background: url(/assets/images/events-hero-image.jpg) center center / cover no-repeat;
     }
 
 #hero-image-services {
     height: 95vh;
-    background: url(/assets/images/duncan-shaffer-0JTDHPIjkHc-unsplash.jpg) center center / cover no-repeat;
+    background: url(/assets/images/services-hero-image.jpg) center center / cover no-repeat;
     }
 
 #hero-image-contact {
     height: 95vh;
-    background: url(/assets/images/pien-muller-Fh-Q-xfdh_o-unsplash.jpg) center center / cover no-repeat;
+    background: url(/assets/images/contact-hero-image.jpg) center center / cover no-repeat;
     }
 
 #scroll-down {
@@ -185,7 +185,7 @@ nav {
 }
 
 #circle-image{
-    background: url(/assets/images/wan-san-yip-5EPLCEpP5tA-unsplash\ \(2\).jpg) no-repeat center center;
+    background: url(/assets/images/what-we-offer-circle-image.jpg) no-repeat center center;
     border-radius: 50%;
     height: 100%;
     
@@ -235,7 +235,7 @@ nav {
     position: absolute;
     width: 100vw;
     height: 800px;
-    background: url(/assets/images/andre-benz-CfZfLxKKlso-unsplash.jpg) center center / cover no-repeat;
+    background: url(/assets/images/Form-section-bground.jpg) center center / cover no-repeat;
 }
 
 #form-box {
