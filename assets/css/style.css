@@ -59,9 +59,33 @@ nav {
 
 /* Hero image and scroll down buttom */
 
-.hero-container {
+#hero-container-home {
+    background: url(/assets/images/home-hero-image.jpg) center center / cover no-repeat;
     height: 95vh;
     position: relative;
+}
+
+#hero-container-events {
+    background: url(/assets/images/events-hero-image.jpg) center center / cover no-repeat;
+    height: 95vh;
+    position: relative;
+}
+
+#hero-container-services {
+    background: url(/assets/images/services-hero-image.jpg) center center / cover no-repeat;
+    height: 95vh;
+    position: relative;
+}
+
+#hero-container-contact {
+    background: url(/assets/images/contact-hero-image.jpg) center center / cover no-repeat;
+    height: 95vh;
+    position: relative;
+}
+
+.hero-shadow {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .hero-heading {
@@ -76,32 +100,6 @@ nav {
     text-transform: uppercase;
     font-size: 60px;
 }
-
-#hero-cover {
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-#hero-image {
-    height: 95vh;
-    background: url(/assets/images/home-hero-image.jpg) center center / cover no-repeat;
-    }
-
-#hero-image-events {
-    height: 95vh;
-    background: url(/assets/images/events-hero-image.jpg) center center / cover no-repeat;
-    }
-
-#hero-image-services {
-    height: 95vh;
-    background: url(/assets/images/services-hero-image.jpg) center center / cover no-repeat;
-    }
-
-#hero-image-contact {
-    height: 95vh;
-    background: url(/assets/images/contact-hero-image.jpg) center center / cover no-repeat;
-    }
 
 #scroll-down {
     bottom: 0;
