@@ -204,15 +204,15 @@ I also tested these sites out on Chrome, Firefox, Opera, Edge and even an older 
 
 Results for CSS
 
-1.
+1. 
 
 Results for HTML
 
-1.
+1. ![Image of HTML Validator Home](assets/images/home.html.validator.png)
 
-2.
+2. ![Image of HTML Validator Events](assets/images/events-html-validator.png)
 
-3.
+3. ![Image of HTML Validator Contact](assets/images/contact-html-validator.png)
 
 
 
