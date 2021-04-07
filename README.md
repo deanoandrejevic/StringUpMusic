@@ -261,4 +261,51 @@ By adding a media query for a smaller resolution and changing the display of the
 ## I want to check up on job listings as they pop up.
 - The aim is to have a lot of communication with users esspecially those actively seeking a career with us. When they send in our contact form we will tell them if they have been successful and they will also be told if they have not been successful. Also by supplying us with your mobile number we can keep in touch via text. We will also keep the site updated with new jobs listing when they come up
 
-#Deployment
+# Deployment
+
+-I started a new repository with a new template by going on to your profile and clicking the green "new" button. 
+I Named mine StringUpMusic.
+-Once the Repository is created I clicked on the GitPod button to load the workspace.
+-Once in I created a README.md file and index.html file. assets, images and css folders.
+-When I have finished doing that I added those files and folders to the staging area by doing the
+git add * command. Then do the "intital commit" and push them with git push.
+-I then went back to the GitHub Repo and went to settings, scrolled down to GitHub pages and selected
+master from the source dropdown.
+-Then my page was created, with a GitHub.io url
+
+# Credits 
+
+## Media
+The media for these pages are from multiple sources, listed below.
+
+[Home Image](https://unsplash.com/photos/FrmpLKLNgNw)
+
+[Events Image](https://unsplash.com/photos/hzgs56Ze49s)
+
+[Contact Image](https://unsplash.com/photos/Fh-Q-xfdh_o)
+
+[What We Offer Image](https://unsplash.com/photos/5EPLCEpP5tA)
+
+[Form Image](https://unsplash.com/photos/CfZfLxKKlso)
+
+[Synyster Gates Image](https://avengedsevenfold.com/app/uploads/2018/11/synystergatestsgs1.jpg)
+
+[YMAS Image](https://www.nme.com/wp-content/uploads/2020/08/2020_YMAS_IP_2000x1270-1392x884.jpg)
+
+[Jumble Sale Image](https://unsplash.com/photos/S_bbqW4yQZA)
+
+[Fender Image](https://www.sweetwater.com/insync/media/2019/06/Fender-Player-Series-Hero.jpg)
+
+[Spiritbox Image](https://music-b26f.kxcdn.com/wp-content/uploads/2020/07/Spiritbox-Press-Photo-2020-770x470.jpg)
+
+[Gerry Cinnamon Image](https://www.nme.com/wp-content/uploads/2020/11/Gerry-Cinnamon--1392x884.jpg)
+
+[Company Logo](https://thenounproject.com/icon/3292872/) *This Image doesn't need to credited as I brought it but this icon was made by Olena Panasovska*
+
+# Adknowledgement
+
+The Code Institute have been made it so I can do all of this project.
+
+Alexander Farrell from Student Care, I was feeling really awful about this project and was scared I was never going to get this finished but he spurred me on to smash out the last few days
+
+Andrew Kipling from the Learning People, he got me signed up for this course and got me to take the plundge and go for something I've always wanted to do!
