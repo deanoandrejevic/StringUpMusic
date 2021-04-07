@@ -1,37 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Permanent+Marker&display=swap');
 
-
-/* Test */
-
-.navbar-brand {
-    margin-left: 50px;
-}
-
-.navbar-collapse {
-    flex-grow: 0;
-}
-
-.navbar-nav {
-    float: right;
-    font-family: 'Montserrat', sans-serif;
-    font-size: xx-large;
-    margin-right: 50px;
-}
-
-.nav-link {
-    text-align: right;
-    padding-right: 15px;
-    color: #fdfdfd;
-}
-
-.navbar-toggler {
-    border : 2px solid #fdfdfd;
-    color: #fdfdfd;
-    font-size: xx-large;
-    margin-right: 50px;
-}
-
-
 * {
     padding: 0;
     margin: 0;
@@ -79,8 +47,8 @@ nav {
 .navbar-toggler {
     border : 2px solid #fdfdfd;
     color: #fdfdfd;
-    font-size: xx-large;
-    margin-right: 50px;
+    font-size: xxx-large;
+    margin-right: 20px;
 }
 
 /* Hero image and scroll down buttom */
@@ -215,7 +183,7 @@ nav {
 /* Events Page */
 
 #events-heading {
-    margin-top: 10px;
+    margin-top: 20px;
     text-align: center;
 }
 
@@ -242,6 +210,15 @@ nav {
 .events-card-text {
     padding: 10px;
     text-align: center;
+}
+
+.tickets-container {
+    margin: 0 50px 0 50px;
+    text-align: center;
+}
+
+.tickets-container h1 {
+    margin-bottom: 15px;
 }
 
 /* Job Oppotunities Section */
@@ -352,7 +329,23 @@ footer {
     color: #fdfdfd;
 }
 
-/* Media Quieries Home */
+/* Media Queries Navbar */
+
+@media screen and (max-width: 991px) {
+    .navbar-brand {
+        margin: 0;
+    }
+
+    .navbar-nav {
+        margin-right: 20px;
+    }
+
+    .hero-heading {
+        margin-left: 20px;
+    }
+}
+
+/* Media Queries Home */
 
 @media screen and (max-width: 1440px) {
     #what-we-offer {
@@ -409,6 +402,14 @@ footer {
 @media screen and (max-width: 1400px){
     #form-box {
         width: 95%;
+    }
+}
+
+/* Media queries footer */
+
+@media screen and (max-width: 991px){
+    .footer-container {
+        margin: 0 20px 0 20px;
     }
 }
 
