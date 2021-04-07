@@ -169,4 +169,29 @@ commiting it to my own code.
 - I have tested the form on multiple devices, of different resolutions. The submitted form goes nowhere as expected. Also the form input that are required to be filled out do
 show as "please fill in this form" This is the case on all devices.
 
-## 
+## Link Testing
+- external links have been tested from multiple devices and of multiple resolutions. They all open in new tabs as they should. internal links have also been tested in the same
+same peramiters and everything works as expected. The social links are font awesome icons with the visually-hidden bootstrap attribute attached for screen readers. The links for fender, gibson, ernie ball, gov uk, ppl and ticketweb are coloured in white to help with contrast and but they still have the text-decoration so you can easily tell the difference between what is a link and what is text
+
+## Devices tested on
+- I have tested on primarly android devices as that is what I have and the rest of the family too. I did also have a few friends help me out too and just make sure everything is working for me. 
+
+-- ### Devices tested on:
+        - Google Pixel 4XL
+        - Moto G 5G Plus
+        - Samsung Galaxy A21
+        - Samsung Galaxy A12
+        - Moto E Macro
+        - Lenovo Tab P11
+        - Amazon Fire Tablet 10"
+        - IPhone 12 Pro
+        - iPhone 12 Pro Max
+        - iPhone 11 Pro
+        - Google Chromebook
+        - Windows 10 PC - 1920x1080 + 3840x2160
+
+I have also run my code through the Google Mobile Friendly Test. Results are below for each page.
+
+
+
+
