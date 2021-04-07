@@ -176,22 +176,43 @@ same peramiters and everything works as expected. The social links are font awes
 ## Devices tested on
 - I have tested on primarly android devices as that is what I have and the rest of the family too. I did also have a few friends help me out too and just make sure everything is working for me. 
 
--- ### Devices tested on:
-        - Google Pixel 4XL
-        - Moto G 5G Plus
-        - Samsung Galaxy A21
-        - Samsung Galaxy A12
-        - Moto E Macro
-        - Lenovo Tab P11
-        - Amazon Fire Tablet 10"
-        - IPhone 12 Pro
-        - iPhone 12 Pro Max
-        - iPhone 11 Pro
-        - Google Chromebook
-        - Windows 10 PC - 1920x1080 + 3840x2160
+## Devices tested on:
+- Google Pixel 4XL
+- Moto G 5G Plus
+- Samsung Galaxy A21
+- Samsung Galaxy A12
+- Moto E Macro
+- Lenovo Tab P11
+- Amazon Fire Tablet 10"
+- iPhone 12 Pro
+- iPhone 12 Pro Max
+- iPhone 11 Pro
+- Google Chromebook
+- Windows 10 PC - 1920x1080 + 3840x2160
 
 I have also run my code through the Google Mobile Friendly Test. Results are below for each page.
 
+1. ![Image of Google Mobile Test Home](assets/images/Home-google-mobile-test.png)
+
+2. ![Image of Google Mobile Test Events](assets/images/events-google-mobile-test.png)
+
+3. ![Image of Google Mobile Test Contact](assets/images/contact-google-mobile-test.png)
+
+I also tested these sites out on Chrome, Firefox, Opera, Edge and even an older version of internet explorer.
+
+## Validation:
+
+Results for CSS
+
+1.
+
+Results for HTML
+
+1.
+
+2.
+
+3.
 
 
 
