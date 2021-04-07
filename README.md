@@ -204,7 +204,7 @@ I also tested these sites out on Chrome, Firefox, Opera, Edge and even an older 
 
 Results for CSS
 
-1. 
+1. ![Image of CSS Validator](assets/images/CSS-Validator.png)
 
 Results for HTML
 
@@ -223,7 +223,7 @@ These two bugs are ones I am currently still experiencing and am in the process 
 
 1. I am having an issue where there is a small thin white gap down the right side of all the pages. I believe it is caused by the navbar, as I have had similar issues in the past.
 
-[Image of Small Thin Gap All Pages]()
+![Image of Small Thin Gap All Pages](assets/images/Small-white-area-all-pages.png)
 
 
 *UPDATED*
@@ -231,7 +231,34 @@ Issues is now fixed. I changed the navbar attribute to have 100% width. There is
 
 2. The only other issue I am having is the radio check boxes and the labels are splitting which is looking ugly and untidy. I think this can be fixed by doing a display: inline-block. I can't be 100% sure until I try
 
-[Image of radio checks and labels splitting]()
+![Image of radio checks and labels splitting](assets/images/Label-radio-check-splitting.png)
 
 *UPDATED*
 By adding a media query for a smaller resolution and changing the display of the label display to display:block; and adding a bottom margin to space the options out so it doesn't make it confusing. It doesn't look 100% but it is pretty decent fix until I can figure out a more permanent one! 
+
+# User Story Testing
+
+## I want to be able to know exactly what the message of the site is with minimal digging.
+- You are immediatly greeted with a picture of a concert which indicates the website has something to do with music and gigs, You are also greeted to the heading of String Up "More than a venue" which clearly indicates something to do with music and more.
+
+## I want to be able to know exactly where to go if I need something specific.
+- You don't have to look to far to find our where you want to go on the site. The top right hand corner of the page there are options for Home, Events and Contact Us. Also there is the universal menu button which will reveal the options when on mobile. Also there is a scroll down icon which indicates there is more to look at!
+
+## I want to be able to find out which events the venue are holding and when.
+- You just have to click on the events tab and you will find all the events that are upcoming. You will also find ticket information and how to get them! There is scope in the future to add more events to the page!
+
+## I want to be able to give feedback to the company, or enquriy about a service.
+- When you click on the contact us form. The form should have everything you needs to make an enquiry. You will not only find a form to fill out but you will also find job oppotuntities
+
+#Regular User Stories
+
+## I want to explore new features as and when they go live on the page.
+- They is currently nothing new on the website aprt from what was already there. but having the form in place means we can send the customer updates about the site and new services as and when they go live.
+
+## I want to be notified of upcoming events and workshops that apply to me.
+- Once again by signing up through our contact form you will get updates to upcoming events. The website can also be updated frequently for when a new date gets added and when an event passes it can get taken so not to confuse users.
+
+## I want to check up on job listings as they pop up.
+- The aim is to have a lot of communication with users esspecially those actively seeking a career with us. When they send in our contact form we will tell them if they have been successful and they will also be told if they have not been successful. Also by supplying us with your mobile number we can keep in touch via text. We will also keep the site updated with new jobs listing when they come up
+
+#Deployment
