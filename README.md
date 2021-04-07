@@ -215,4 +215,23 @@ Results for HTML
 3. ![Image of HTML Validator Contact](assets/images/contact-html-validator.png)
 
 
+## Project Bug and Solutions
 
+- I only experienced two bugs through out the whole project, any of the other issues I had were only there because I created them by playing about, and when I created the issue if i didn't want to carry on with it I just reversed it. I will outline the 2 bugs I am having here.
+
+These two bugs are ones I am currently still experiencing and am in the process of fixing, If i manage to fix them I will outline how I have done so.
+
+1. I am having an issue where there is a small thin white gap down the right side of all the pages. I believe it is caused by the navbar, as I have had similar issues in the past.
+
+[Image of Small Thin Gap All Pages]()
+
+
+*UPDATED*
+Issues is now fixed. I changed the navbar attribute to have 100% width. There is now no gap and issues is fixed regardless of screen size.
+
+2. The only other issue I am having is the radio check boxes and the labels are splitting which is looking ugly and untidy. I think this can be fixed by doing a display: inline-block. I can't be 100% sure until I try
+
+[Image of radio checks and labels splitting]()
+
+*UPDATED*
+By adding a media query for a smaller resolution and changing the display of the label display to display:block; and adding a bottom margin to space the options out so it doesn't make it confusing. It doesn't look 100% but it is pretty decent fix until I can figure out a more permanent one! 
