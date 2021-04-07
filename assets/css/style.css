@@ -133,7 +133,6 @@ nav {
 }
 
 #what-we-offer {
-    height: 400px;
     margin: 50px 50px 50px 50px;
 }
 
@@ -330,7 +329,6 @@ footer {
 
 @media screen and (max-width: 1440px) {
     #what-we-offer {
-        height: 1050px;
         width: 80%;
         margin: 50px auto;
     }
@@ -349,7 +347,6 @@ footer {
 
 @media screen and (max-width: 1080px){
     #what-we-offer {
-        height: 1200px;
         width: 90%;
         margin: 20px auto;
     }
