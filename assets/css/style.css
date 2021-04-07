@@ -56,7 +56,6 @@ nav {
     font-size: x-large;
 }
 
-
 /* Hero image and scroll down buttom */
 
 #hero-container-home {
@@ -101,6 +100,7 @@ nav {
     font-size: 60px;
 }
 
+
 #scroll-down {
     bottom: 0;
     width:100%;
@@ -119,9 +119,7 @@ nav {
 #scroll-down a {
     color: #fdfdfd;
     font-size: 60px;
-   
 }
-
 
 /* What We Offer Section */
 
@@ -186,7 +184,6 @@ nav {
     background: url(/assets/images/what-we-offer-circle-image.jpg) no-repeat center center;
     border-radius: 50%;
     height: 100%;
-    
 }
 
 /* Events Page */
@@ -230,18 +227,16 @@ nav {
 /* Form Sections */
 
 #form-container {
-    position: absolute;
+    padding: 20px;
     width: 100vw;
-    height: 800px;
     background: url(/assets/images/Form-section-bground.jpg) center center / cover no-repeat;
 }
 
 #form-box {
     position: relative;
     color: #fdfdfd;
-    width: 66%;
-    height:760px;
-    margin: 20px auto;
+    width: 50%;
+    margin: auto;
     background-color: rgba(0, 0, 0, 0.5)
 }
 
@@ -253,6 +248,59 @@ nav {
     text-align: center;
 }
 
+form {
+    padding: 20px 50px 20px 50px;
+}
+
+fieldset {
+    padding: 10px;
+}
+
+.form-radio {
+    padding-right: 15px;
+}
+
+.form-text-box {
+    display: block;
+    padding-bottom: 10px;
+}
+
+.form-text-inputs {
+    height: 25px;
+    background-color: #fdfdfd;
+    width: 100%;
+}
+
+.form-age {
+    display: inline-grid;
+}
+
+.form-extra {
+    display: grid;
+    padding-bottom: 10px;
+}
+
+.form-job {
+    width:50px;
+}
+
+.form-button {
+    padding-right:10px;
+    display: inline-block;
+}
+
+.custom-button {
+    padding: 7.5px 10px 7.5px 10px;
+    border-radius: 7.5%;
+    background-color: #fdfdfd;
+    color: black;
+}
+
+.custom-button:hover {
+    background-color: #1f2b2b;
+    color:#fdfdfd
+} 
+
 
 /* Footer */
 
@@ -263,7 +311,8 @@ footer {
 }
 
 .footer-container {
-    margin: 20px 75px 0 75px;
+    padding: 10px;
+    margin: 0 75px 0 75px;
     font-size: smaller;
 }
 
@@ -277,7 +326,7 @@ footer {
     color: #fdfdfd;
 }
 
-/* Media Quieries */
+/* Media Quieries Home */
 
 @media screen and (max-width: 1440px) {
     #what-we-offer {
@@ -319,4 +368,22 @@ footer {
         float: right;
     }
 
+}
+
+/* Media Queries Events */
+
+@media screen and (max-width: 1800px){
+   
+    .float-right{
+        float: right;
+    }
+   
+}
+
+/* Media queries contact */
+
+@media screen and (max-width: 1400px){
+    #form-box {
+        width: 95%;
+    }
 }

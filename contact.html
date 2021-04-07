@@ -115,98 +115,95 @@
 
     <section>
         <div id="form-container">
-
-            <form id="form-box">
-                <div>
-                    <h1>Want to talk to us?</h1>
-                    <p>Fill out our contact form and we will get back to you ASAP</p>
-
-                    <fieldset>
-                        <legend>Reason for Contact</legend>
-                        <div>
-                            <input type="radio" id="feedback" value="feedback" name="why-contact">
-                            <label for="feedback">Feedback</label>
-
-                            <input type="radio" id="venue" value="venue" name="why-contact">
-                            <label for="venue">Venue Inquiry</label>
-
-                            <input type="radio" id="services" value="services" name="why-contact">
-                            <label for="services">Our Services</label>
-
-                            <input type="radio" id="job" value="job" name="why-contact">
-                            <label for="job">Job Application</label>
-
-                        </div>
-                    </fieldset>
-
-                    <fieldset>
-                        <legend>Personal Details</legend>
-                        <div>
-                            <label for="name-field">First Name</label>
-                            <input type="text" id="name-field" name="full-name" placeholder="e.g. Joe Bloggs" required>
-                        </div>
-                        <div>
-                            <label for="email">Email Address</label>
-                            <input type="email" id="email" name="email-address" placeholder="e.g. joe.bloggs@email.com"
-                                required>
-                        </div>
-                        <div>
-                            <label for="p-number">Phone Number</label>
-                            <input type="number" id="p-number" name="p-number" required>
-                        </div>
-                        <div>
-                            <label for="age">Age</label>
-                            <select id="age" name="age" required>
-                                <option value="under-20">Under 20</option>
-                                <option value="20s">20-29</option>
-                                <option value="30s">30-39</option>
-                                <option value="40s">40-49</option>
-                                <option value="50s">50-59</option>
-                                <option value="60+">60+</option>
-                            </select>
-                        </div>
-                    </fieldset>
-
-                    <fieldset>
-                        <legend>Extra Information</legend>
-                        <div>
-                            <label for="date">When would you like to visit?</label>
-                            <input type="date" id="date" name="name">
-                        </div>
-                        <div>
-                            <label for="what-job">Which job listing</label>
-                            <select id="what-job" name="what-job">
-                                <option value="Bar-staff">Bar Staff</option>
-                                <option value="Sound-tech">Sound Tech</option>
-                                <option value="Events-Coordiator">Events Co-Ordiator</option>
-                                <option value="Guitar-tech">Guitar Technican</option>
-                            </select>
-                        </div>
-                        <div>
-                            <label for="CV">Upload your CV</label>
-                            <input type="file" id="CV" name="CV">
-                        </div>
-                    </fieldset>
-
+            <div id="form-box">
+                <form>
                     <div>
-                        <label for="feedback">More Details/Feedback</label>
-                        <textarea id="feedback" rows="4" cols="50"
-                            placeholder="Provide us your feeback, more information about your planned visit or what service you require,"></textarea>
-                    </div>
+                        <h1>Want to talk to us?</h1>
+                        <p>Fill out our contact form and we will get back to you ASAP</p>
 
-                    <div>
-                        <input type="submit" value="Submit!">
+                        <fieldset>
+                            <legend>Reason for Contact</legend>
+                            <div>
+                                <input  type="radio" id="feedback" value="feedback" name="why-contact">
+                                <label class="form-radio" for="feedback">Feedback</label>
+
+                                <input  type="radio" id="venue" value="venue" name="why-contact">
+                                <label class="form-radio" for="venue">Venue Inquiry</label>
+
+                                <input  type="radio" id="services" value="services" name="why-contact">
+                                <label class="form-radio" for="services">Our Services</label>
+
+                                <input  type="radio" id="job" value="job" name="why-contact">
+                                <label class="form-radio" for="job">Job Application</label>
+                            </div>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Personal Details</legend>
+                            <div class="form-text-box">
+                                <label for="name-field">First Name</label>
+                                <input class="form-text-inputs" type="text" id="name-field" name="full-name" placeholder="e.g. Joe Bloggs"
+                                    required>
+                            </div>
+                            <div class="form-text-box">
+                                <label for="email">Email Address</label>
+                                <input class="form-text-inputs" type="email" id="email" name="email-address"
+                                    placeholder="e.g. joe.bloggs@email.com" required>
+                            </div>
+                            <div class="form-text-box">
+                                <label for="p-number">Phone Number</label>
+                                <input class="form-text-inputs" type="number" id="p-number" name="p-number" required>
+                            </div>
+                            <div class="form-age">
+                                <label for="age">Age</label>
+                                <select id="age" name="age" required>
+                                    <option value="under-20">Under 20</option>
+                                    <option value="20s">20-29</option>
+                                    <option value="30s">30-39</option>
+                                    <option value="40s">40-49</option>
+                                    <option value="50s">50-59</option>
+                                    <option value="60+">60+</option>
+                                </select>
+                            </div>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>Extra Information</legend>
+                            <div class="form-extra">
+                                <label for="date">When would you like to visit?</label>
+                                <input type="date" id="date" name="name">
+                            </div>
+                            <div class="form-extra form-job">
+                                <label for="what-job">Which job listing</label>
+                                <select id="what-job" name="what-job">
+                                    <option value="Bar-staff">Bar Staff</option>
+                                    <option value="Sound-tech">Sound Tech</option>
+                                    <option value="Events-Coordiator">Events Co-Ordiator</option>
+                                    <option value="Guitar-tech">Guitar Technican</option>
+                                </select>
+                            </div>
+                            <div class="form-extra">
+                                <label for="CV">Upload your CV</label>
+                                <input type="file" id="CV" name="CV">
+                            </div>
+                        </fieldset>
+
+                        <div class="form-extra">
+                            <label for="feedback">More Details/Feedback</label>
+                            <textarea id="feedback" rows="4" cols="50"
+                                placeholder="Provide us your feeback, more information about your planned visit or what service you require,"></textarea>
+                        </div>
+
+                        <div class="form-button">
+                            <input class="custom-button" type="submit" value="Submit!">
+                        </div>
+                        <div class="form-button">
+                            <input class="custom-button" type="reset" value="Reset!">
+                        </div>
                     </div>
-                    <div>
-                        <input type="reset" value="Reset!">
-                    </div>
-                </div>
-            </form>
+                </form>
+            </div>
         </div>
-
-    </section>
-
-    <section>
 
     </section>
 
