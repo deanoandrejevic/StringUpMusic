@@ -163,4 +163,10 @@ commiting it to my own code.
 
 - [Lighthouse](https://developers.google.com/web/tools/lighthouse) Was used to test performance, SEO, accessibility and best practices
 
+# Testing
 
+## Form Testing
+- I have tested the form on multiple devices, of different resolutions. The submitted form goes nowhere as expected. Also the form input that are required to be filled out do
+show as "please fill in this form" This is the case on all devices.
+
+## 
