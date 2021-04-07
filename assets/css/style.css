@@ -47,20 +47,20 @@ nav {
 .navbar-toggler {
     border : 2px solid #fdfdfd;
     color: #fdfdfd;
-    font-size: xxx-large;
+    font-size: xx-large;
     margin-right: 20px;
 }
 
 /* Hero image and scroll down buttom */
 
 #hero-container-home {
-    background: url(/assets/images/home-hero-image.jpg) center center / cover no-repeat;
+    background: url(assets/images/home-hero-image.jpg) center center / cover no-repeat;
     height: 95vh;
     position: relative;
 }
 
 #hero-container-events {
-    background: url(/assets/images/events-hero-image.jpg) center center / cover no-repeat;
+    background: url(assets/images/events-hero-image.jpg) center center / cover no-repeat;
     height: 95vh;
     position: relative;
 }
@@ -72,7 +72,7 @@ nav {
 } */
 
 #hero-container-contact {
-    background: url(/assets/images/contact-hero-image.jpg) center center / cover no-repeat;
+    background: url(assets/images/contact-hero-image.jpg) center center / cover no-repeat;
     height: 95vh;
     position: relative;
 }
@@ -118,13 +118,10 @@ nav {
 
 /* What We Offer Section */
 
-.container{
+.what-we-offer-heading{
+    text-align: center;
     width: 100%;
     margin-top: 20px;
-}
-
-.container h1 {
-    text-align: center;
 }
 
 #what-we-offer {
@@ -175,7 +172,7 @@ nav {
 }
 
 #circle-image{
-    background: url(/assets/images/what-we-offer-circle-image.jpg) no-repeat center center;
+    background: url(assets/images/what-we-offer-circle-image.jpg) no-repeat center center;
     border-radius: 50%;
     height: 100%;
 }
@@ -232,7 +229,7 @@ nav {
 #form-container {
     padding: 20px;
     width: 100vw;
-    background: url(/assets/images/Form-section-bground.jpg) center center / cover no-repeat;
+    background: url(assets/images/Form-section-bground.jpg) center center / cover no-repeat;
 }
 
 #form-box {
