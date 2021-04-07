@@ -1,5 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Permanent+Marker&display=swap');
 
+
+/* Test */
+
+.navbar-brand {
+    margin-left: 50px;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.navbar-nav {
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+    margin-right: 50px;
+}
+
+.nav-link {
+    text-align: right;
+    padding-right: 15px;
+    color: #fdfdfd;
+}
+
+.navbar-toggler {
+    border : 2px solid #fdfdfd;
+    color: #fdfdfd;
+    font-size: xx-large;
+    margin-right: 50px;
+}
+
+
 * {
     padding: 0;
     margin: 0;
@@ -15,7 +47,7 @@ h1, h2, h3, h4 {
     font-family: 'Permanent Marker', sans-serif;
 }
 
-/* Navbar and logo */
+/* Navbar and logo navbar used from bootstrap and modified to fit my needs https://getbootstrap.com/docs/5.0/components/navbar/#toggler*/
 
 nav {
     position: absolute;
@@ -23,37 +55,32 @@ nav {
     height: 200px;
 }
 
-.active-tab {
-    border-bottom: 1px solid;
+.navbar-brand {
+    margin-left: 50px;
 }
 
-#logo{
-    width: 200px;
-    height: 200px;
-    float: left;
-    margin-left: 75px;
+.navbar-collapse {
+    flex-grow: 0;
 }
 
-#logo img {
-    width: 200px;
-    height: 200px;
+.navbar-nav {
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+    margin-right: 50px;
 }
 
-#menu {
-    float:right;
-    margin: 75px 75px 75px 0;
-}
-
-#menu li {
-    padding-right: 30px;
-    list-style-type: none;
-    display: inline;
-}
-
-#menu li a {
-    text-decoration: none;
+.nav-link {
+    text-align: right;
+    padding-right: 15px;
     color: #fdfdfd;
-    font-size: x-large;
+}
+
+.navbar-toggler {
+    border : 2px solid #fdfdfd;
+    color: #fdfdfd;
+    font-size: xx-large;
+    margin-right: 50px;
 }
 
 /* Hero image and scroll down buttom */
@@ -70,11 +97,11 @@ nav {
     position: relative;
 }
 
-#hero-container-services {
+/* #hero-container-services {
     background: url(/assets/images/services-hero-image.jpg) center center / cover no-repeat;
     height: 95vh;
     position: relative;
-}
+} */
 
 #hero-container-contact {
     background: url(/assets/images/contact-hero-image.jpg) center center / cover no-repeat;
@@ -192,9 +219,9 @@ nav {
     text-align: center;
 }
 
-/* #events-container {
-    height: 2000px;
-} */
+#events-container {
+    height: 100%;
+}
 
 .events-row {
     display: flex;
@@ -384,3 +411,5 @@ footer {
         width: 95%;
     }
 }
+
+

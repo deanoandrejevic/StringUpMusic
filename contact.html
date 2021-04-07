@@ -22,29 +22,23 @@
 
         <div id="hero-container-contact">
             <div class="hero-shadow">
-                <nav>
-
-                    <div id="logo">
-                        <a href="index.html">
-                            <img src="/assets/images/Company Logo.png" alt="Company Logo">
-                        </a>
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"><img src="/assets/images/Company Logo.png" alt=""
+                                height="200px" width="200px"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span><i class="fas fa-bars"></i></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-link" href="/index.html">Home</a>
+                                <a class="nav-link" href="/events.html">Events</a>
+                                <a class="nav-link active" aria-current="page" href="/contact.html">Contact Us</a>
+                            </div>
+                        </div>
                     </div>
-
-                    <ul id="menu">
-                        <li>
-                            <a href="index.html">Home</a>
-                        </li>
-                        <li>
-                            <a href="services.html">Services</a>
-                        </li>
-                        <li>
-                            <a href="events.html">Events</a>
-                        </li>
-                        <li>
-                            <a href="contact.html" class="active-tab">Contact Us</a>
-                        </li>
-                    </ul>
-
                 </nav>
 
                 <div class="hero-heading">
@@ -124,16 +118,16 @@
                         <fieldset>
                             <legend>Reason for Contact</legend>
                             <div>
-                                <input  type="radio" id="feedback" value="feedback" name="why-contact">
+                                <input type="radio" id="feedback" value="feedback" name="why-contact">
                                 <label class="form-radio" for="feedback">Feedback</label>
 
-                                <input  type="radio" id="venue" value="venue" name="why-contact">
+                                <input type="radio" id="venue" value="venue" name="why-contact">
                                 <label class="form-radio" for="venue">Venue Inquiry</label>
 
-                                <input  type="radio" id="services" value="services" name="why-contact">
+                                <input type="radio" id="services" value="services" name="why-contact">
                                 <label class="form-radio" for="services">Our Services</label>
 
-                                <input  type="radio" id="job" value="job" name="why-contact">
+                                <input type="radio" id="job" value="job" name="why-contact">
                                 <label class="form-radio" for="job">Job Application</label>
                             </div>
                         </fieldset>
@@ -142,8 +136,8 @@
                             <legend>Personal Details</legend>
                             <div class="form-text-box">
                                 <label for="name-field">First Name</label>
-                                <input class="form-text-inputs" type="text" id="name-field" name="full-name" placeholder="e.g. Joe Bloggs"
-                                    required>
+                                <input class="form-text-inputs" type="text" id="name-field" name="full-name"
+                                    placeholder="e.g. Joe Bloggs" required>
                             </div>
                             <div class="form-text-box">
                                 <label for="email">Email Address</label>
