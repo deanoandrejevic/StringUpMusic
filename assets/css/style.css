@@ -18,6 +18,10 @@ h4 {
 	font-family: 'Permanent Marker', sans-serif;
 }
 
+a {
+    color: #fdfdfd;
+}
+
 
 /* Navbar and logo navbar used from bootstrap and modified to fit my needs https://getbootstrap.com/docs/5.0/components/navbar/#toggler*/
 
@@ -226,7 +230,7 @@ nav {
 }
 
 .job-container {
-	margin: 20px 75px 0 75px;
+	margin: 20px 50px 0 50px;
 }
 
 
@@ -318,7 +322,7 @@ footer {
 
 .footer-container {
 	padding: 10px;
-	margin: 0 75px 0 75px;
+	margin: 0 50px 0 50px;
 	font-size: smaller;
 }
 
